@@ -2,7 +2,7 @@
 
 import json
 import requests
-from constants import HEADER_API, EMOTION_API_URL, NULL_RESPONSE
+from .constants import HEADER_API, EMOTION_API_URL, NULL_RESPONSE
 
 __all__ = ["emotion_detector"]
 
